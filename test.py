@@ -9,6 +9,6 @@ dataset = dr.get_dataset()
 
 #print len(dataset)
 model = BinaryClassification()
-model.train_model(x_train, y_train, 10)
+model.train_model(x_train, y_train, 20)
 model.test_model(x_test, y_test)
 
